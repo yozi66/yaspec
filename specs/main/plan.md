@@ -91,10 +91,10 @@ specs/[###-feature]/
 ### Source Code (repository root)
 ```
 # electron-vite-react template structure
-src/
-├── main/
-├── preload/
-└── renderer/
+electron/
+├── main.ts    # Main process
+└── preload.ts # Preload script
+src/           # Renderer process (React code)
 ```
 
 **Structure Decision**: electron-vite-react template
