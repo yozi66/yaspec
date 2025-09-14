@@ -2,3 +2,7 @@ gemini /specify Build an application that keeps track of my bonds, stocks and et
 
 gemini /plan
 gemini /tasks
+@specs/main/plan.md @specs/main/tasks.md @specs/main/data-model.md 
+
+Modify the plan since we are about creating an electron project. It is not split to backend and frontend. 
+Remove the backend and frontend dirs and look for an electron template with typescript, react and vite.

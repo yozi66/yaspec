@@ -33,7 +33,7 @@ A full-stack web application to track financial assets like bonds, stocks, and E
 
 ## Technical Context
 **Language/Version**: TypeScript
-**Primary Dependencies**: React, Mantine, Node.js, Electron
+**Primary Dependencies**: React, Mantine, Node.js, Electron, Vite
 **Storage**: SQLite or JSON file
 **Testing**: [NEEDS CLARIFICATION]
 **Target Platform**: Desktop (via Electron)
@@ -90,42 +90,14 @@ specs/[###-feature]/
 
 ### Source Code (repository root)
 ```
-# Option 1: Single project (DEFAULT)
+# electron-vite-react template structure
 src/
-├── models/
-├── services/
-├── cli/
-└── lib/
-
-tests/
-├── contract/
-├── integration/
-└── unit/
-
-# Option 2: Web application (when "frontend" + "backend" detected)
-backend/
-├── src/
-│   ├── models/
-│   ├── services/
-│   └── api/
-└── tests/
-
-frontend/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   └── services/
-└── tests/
-
-# Option 3: Mobile + API (when "iOS/Android" detected)
-api/
-└── [same as backend above]
-
-ios/ or android/
-└── [platform-specific structure]
+├── main/
+├── preload/
+└── renderer/
 ```
 
-**Structure Decision**: Option 2: Web application
+**Structure Decision**: electron-vite-react template
 
 ## Phase 0: Outline & Research
 1. **Extract unknowns from Technical Context** above:
