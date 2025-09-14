@@ -19,3 +19,10 @@ Please undo the changes and let's go back to the last commited state in git.
 Apply the electron-vite-react template to the current project. 
 It is tricky, since the standard way is to create a new project from the template. 
 Please take care, we do not want to clone the electron-vite-react template onto our project (that was the problem last time). 
+
+The standard way of using the template is npm create electron-vite@latest new-project-name 
+It is an interactive prompt. Can you deal with it or is it better done by a human?
+
+I did run the tool. The template was created as ../tmp-electron-vite-react-app  
+
+Moved tmp-electron-vite-react-app into the current directory. You will be able to read it now.
