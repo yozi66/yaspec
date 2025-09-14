@@ -15,3 +15,7 @@ You can clone the current project from git@github.com:yozi66/yaspec.git
 
 The many changes came from copying the electron-vite-react template onto the current project.
 Please undo the changes and let's go back to the last commited state in git.
+
+Apply the electron-vite-react template to the current project. 
+It is tricky, since the standard way is to create a new project from the template. 
+Please take care, we do not want to clone the electron-vite-react template onto our project (that was the problem last time). 
