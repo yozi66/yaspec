@@ -26,3 +26,5 @@ It is an interactive prompt. Can you deal with it or is it better done by a huma
 I did run the tool. The template was created as ../tmp-electron-vite-react-app  
 
 Moved tmp-electron-vite-react-app into the current directory. You will be able to read it now.
+
+Apply the electron-vite-react template to the current project. You can find it in tmp-electron-vite-react-app.
